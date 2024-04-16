@@ -1,18 +1,71 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+avatar = "https://avatars.githubusercontent.com/u/22461669?v=4"
 
+
+# 全局范围内启用 Emoji 表情符号
+enableEmoji = true
+ignoreErrors = [
+    "additional-script-loading-error",
+] # ignore error of loading additional scripts.
+
+
+# [services]
+# 要启用Google Analytics 4（gtag.js）语法高亮，请在下面提供G-MEARATION_ID。
+# 要禁用Google Analytics，只需将该字段留空或删除接下来的两行
+# [services.googleAnalytics]
+# id = '' # G-MEASUREMENT_ID
+
+# 要启用Disqus评论，请在下面提供 shortname
+# [services.disqus]
+# shortname = ''
+
+# —————— 主题设置 ——————
 [module]
 [[module.imports]]
 path = "github.com/hugo-sid/hugo-blog-awesome"
 
+# —————— 个人信息 ——————
+[params]
+goToTop = true
+
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/Trade-Offf/blog"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
 
 [[params.socialIcons]]
 name = "Rss"
-url = "index.xml"
+url = "/index.xml"
 
-[params]
-goToTop = true
+# 启用代码突出显示
+[markup]
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 2  # ToC starts from H2
+endLevel = 4    # ToC ends at H4
+ordered = false # generates <ul> instead of <ol>
+
+
+# —————— 菜单导航栏 ——————
+[menu]
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
