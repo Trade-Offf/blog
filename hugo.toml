@@ -1,6 +1,6 @@
-baseURL = 'https://661f94a28ce25df7f6561f0c--tradeofff.netlify.app/'
+baseURL = 'https://tradeofff.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Trade-Offf Blog'
 avatar = "https://avatars.githubusercontent.com/u/22461669?v=4"
 
 
@@ -18,8 +18,8 @@ ignoreErrors = [
 # id = '' # G-MEASUREMENT_ID
 
 # 要启用Disqus评论，请在下面提供 shortname
-# [services.disqus]
-# shortname = ''
+[services.disqus]
+shortname = 'tradeofff'
 
 # —————— 主题设置 ——————
 [module]

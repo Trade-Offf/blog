@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Trade-Offf Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Trade-Offf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2024 20:11:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 20:06:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Rax2Taro</title>
+      <link>http://localhost:1313/posts/rax2taro/</link>
       <pubDate>Tue, 16 Apr 2024 20:06:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/rax2taro/</guid>
       
-      <description>Hello World test this page</description>
+      <description>「Rax2Taro」：点击查看 Github 地址
+一、前置背景 笔者日常使用 Rax 框架开发前端需求。但随着业务扩展，我面临一个头痛的需求：将现有的 Rax 组件适配为 Taro 组件，以实现一些特定商业场景的跨平台功能。 这一需求可以概括为：
+新功能开发 - 在 Taro 框架中实现，确保多端兼容性。 旧功能复用 - 将现有 Rax 组件转换为 Taro，避免重写。 重写组件成本高昂，特别是对于缺乏文档和原开发者不在的旧组件。因此我们需要一种自动化工具，能够轻松地**「一键式」**将 Rax 组件转化为 Taro 组件，减少工作量，加快开发进程。 本篇博客将探讨构建一个 Rax 到 Taro 的编译器，从零开始实现组件级转换。
+恐惧通常来自未知，你恐惧的不是写一个编译器，你恐惧的是你从来没有写过编译器。
+作为前端同学，如果接到这种工作可能会汗流浃背。 但不要担心，只要我们把目标拆解到足够清晰、足够细化，一切困难都是纸老虎。
+二、编译器 编译器是个宽泛的概念，最初是指将高级语言转换为计算机能识别的汇编/机器语言的工具。 个人理解：编译器本质是个从 A 转换的 B 的翻译工具（如有不妥，请评论区指出 🤝） 以本文目标为例，编译器的作用如上图 但是编译器的翻译过程不是简单的翻译，通常涉及到多个步骤（词法、语法、语义分析、中间代码生成等）。详细知识点不赘述了，感兴趣的朋友请翻阅《编译原理》。
+01 | Babel：JavaScript 编译器 我们以日常开发中，接触最多的 JavaScript 编译器 Babel 为例，了解编译器工作逻辑，这里只介绍 Babel 基本流程。更多详细内容可以看以下 Github 官方文档：Babel 插件手册
+Babel 工作流程
+02 | 基本用法 这里以const a = 1转换成var a = 1为例，看下 Babel 是如何工作的：</description>
       
     </item>
     
