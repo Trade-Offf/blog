@@ -29,7 +29,6 @@ path = "github.com/hugo-sid/hugo-blog-awesome"
 # —————— 个人信息 ——————
 [params]
 goToTop = true
-googleAnalytics = "G-EY846RK7WM"
 
 [[params.socialIcons]]
 name = "github"
