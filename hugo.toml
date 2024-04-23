@@ -1,4 +1,4 @@
-baseURL = 'https://tradeofff.netlify.app/'
+baseurl = 'https://tradeofff.netlify.app/'
 languageCode = 'en-us'
 title = 'Trade-Offf Blog'
 avatar = "https://avatars.githubusercontent.com/u/22461669?v=4"
