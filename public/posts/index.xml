@@ -6,7 +6,28 @@
     <description>Recent content in Posts on Trade-Offf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Apr 2024 13:38:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2024 16:10:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何阅读一篇论文</title>
+      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87/</link>
+      <pubDate>Tue, 23 Apr 2024 16:10:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87/</guid>
+      
+      <description>如何阅读一篇论文 作者：S. Keshav 摘要 研究人员花费大量时间阅读研究论文。然而，这项技能很少被教授，导致很多努力被浪费。本文概述了一种实用且高效的三遍阅读研究论文的方法，并描述了如何使用这种方法进行文献综述。
+1. 引言 研究人员必须阅读论文的原因有多种：为会议或课程审阅论文、保持领域内的更新或对新领域进行文献综述。一个典型的研究人员每年可能会花费数百小时阅读论文。学习高效阅读论文是一项关键但很少被教授的技能。因此，刚开始的研究生必须自己通过试错来学习。学生在这个过程中浪费了大量的精力，并经常感到沮丧。多年来，我使用简单的“三遍”方法来防止我在获得鸟瞰图之前淹没在论文的细节中。它允许我估计审阅一组论文所需的时间。此外，我可以根据需要和时间来调整论文评估的深度。本文描述了这种方法及其在进行文献综述中的使用。
+2. 三遍方法 关键思想是你应该最多阅读三遍论文，而不是从开头读到结尾。每一遍都实现特定的目标，并建立在前一遍的基础上：
+第一遍给你一个关于论文的大致概念。 第二遍让你理解论文的内容，但不是细节。 第三遍帮助你深入理解论文。 2.1 第一遍 第一遍是快速浏览，以获得论文的鸟瞰图。你还可以决定是否需要进行更多遍阅读。这一遍应该需要大约 5 到 10 分钟，并包括以下步骤：
+仔细阅读标题、摘要和引言。 阅读章节和小节标题，但忽略其他所有内容。 浏览数学内容（如果有的话），以确定底层的理论基础。 阅读结论。 浏览参考文献，心里记下你已经读过的文献。 在第一遍结束时，你应该能够回答五个 C：
+Category（类别）： 这是哪种类型的论文？ Context（背景）： 它与其他哪些论文相关？ Correctness（正确性）： 假设看起来有效吗？ Contributions（贡献）： 论文的主要贡献是什么？ Clarity（清晰度）： 论文写得好吗？ 2.2 第二遍 在第二遍中，更仔细地阅读论文，但忽略细节，如证明。边阅读边记下关键点，或在边缘做注释会很有帮助。如果你是作为论文审稿人，这些注释将帮助你在写审稿意见时，并在程序委员会会议上支持你的审稿意见。
+仔细查看论文中的图表、图解和其他插图。 记得标记相关未读的参考文献以供进一步阅读。 第二遍应该需要一个有经验的读者最多一个小时。
+2.3 第三遍 要完全理解一篇论文，特别是如果你是审稿人，需要第三遍。第三遍的关键是尝试几乎重新实现论文：也就是说，做出与作者相同的假设，重新创建工作。这一遍需要极大的注意力。
+3. 进行文献综述 在进行文献综述时，将考验你的论文阅读技能。这将要求你阅读几十篇论文，可能是在一个不熟悉的领域。以下是如何使用三遍方法来帮助。
+4. 相关工作 如果你为了审阅而阅读论文，你还应该阅读 Timothy Roscoe 关于“为系统会议撰写审稿意见”的论文[3]。如果你计划写一篇技术论文，你应该参考 Henning Schulzrinne 的全面网站[4]和 George Whitesides 关于这个过程的优秀概述[5]。
+5. 致谢 本文档的第一版由我的学生 Hossein Falaki、Earl Oliver 和 Sumair Ur Rahman 起草。感谢他们。我也想对 Christophe Diot 的深刻评论和 Nicole Keshav 的敏锐校对表示感谢。</description>
+      
+    </item>
+    
     <item>
       <title>PR最好只让我看50行</title>
       <link>http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/</link>
@@ -14,7 +35,12 @@
       
       <guid>http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/</guid>
       
-      <description>The ideal PR is 50 lines long Most engineers intuitively know that smaller code changes are better than big ones. The logical arguments flow easy - small pull requests are easier to review, less likely to have bugs, and are faster from inception to deploy. There are a few papers around this that I love - see the references section at the end of this post for further reading.
+      <description>Most engineers intuitively know that smaller code changes are better than big ones.
+大多数工程师直觉上都知道，较小的代码更改比大的更改更好。
+The logical arguments flow easy: small pull requests are easier to review, less likely to have bugs, and are faster from inception to deploy.
+逻辑论证很自然：小的拉取请求更容易审查，不太可能有错误，并且从创建到部署的速度更快。
+There are a few papers around this that I love - see the references section at the end of this post for further reading.
+有一些我非常喜欢的相关论文 - 请参阅本文末尾的参考文献部分以获取更多阅读材料。
 But how small is small?</description>
       
     </item>
