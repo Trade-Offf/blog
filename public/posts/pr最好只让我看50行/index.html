@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Posts | Trade-Offf Blog</title>
-<meta property="og:title" content="Posts | Trade-Offf Blog" />
-<meta name="twitter:title" content="Posts | Trade-Offf Blog" />
-<meta itemprop="name" content="Posts | Trade-Offf Blog" />
-<meta name="application-name" content="Posts | Trade-Offf Blog" />
+<title itemprop="name">PR最好只让我看50行 | Trade-Offf Blog</title>
+<meta property="og:title" content="PR最好只让我看50行 | Trade-Offf Blog" />
+<meta name="twitter:title" content="PR最好只让我看50行 | Trade-Offf Blog" />
+<meta itemprop="name" content="PR最好只让我看50行 | Trade-Offf Blog" />
+<meta name="application-name" content="PR最好只让我看50行 | Trade-Offf Blog" />
 <meta property="og:site_name" content="" />
 
 <meta name="description" content="">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/" title="" />
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/" title="" />
 
 
 
@@ -30,14 +30,6 @@
 
 
 
-    
-    
-    
-    
-    
-    <link rel="first" href="/posts/" />
-    <link rel="last" href="/posts/" />
-    
     
     
     
@@ -54,14 +46,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Posts",
+        "headline": "PR最好只让我看50行",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2024-04-23",
         "description": "",
-        "wordCount":  0 ,
+        "wordCount":  360 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-04-23",
         "image": {
@@ -80,9 +72,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:1313/posts/">
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Trade-Offf Blog">
-    <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Trade-Offf Blog">
+    <link rel="canonical" href="http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/">
     <link href="/style.min.d43bc6c79baa87f006efb2b92be952faeedeb1a3ab626c1d6abda52eae049355.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -161,39 +151,88 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Posts</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2024</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">PR最好只让我看50行</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-04-23T13:38:18&#43;08:00" itemprop="datePublished"> Apr 23, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Most engineers intuitively know that smaller code changes are better than big ones.<br>
+大多数工程师直觉上都知道，较小的代码更改比大的更改更好。</p>
+<p>The logical arguments flow easy: small pull requests are easier to review, less likely to have bugs, and are faster from inception to deploy.<br>
+逻辑论证很自然：小的拉取请求更容易审查，不太可能有错误，并且从创建到部署的速度更快。</p>
+<p>There are a few papers around this that I love - see the references section at the end of this post for further reading.<br>
+有一些我非常喜欢的相关论文 - 请参阅本文末尾的参考文献部分以获取更多阅读材料。</p>
+<p>But how small is small? Can PRs be too small?<br>
+但多小才算小？PRs（拉取请求）会不会太小？</p>
+<p>And if a PR is better than a big PR, how much better?<br>
+如果一个小的 PR 比一个大的 PR 更好，那么它好多少？</p>
+<h2 id="理想的-pr-长度为-50-行">理想的 PR 长度为 50 行</h2>
+<p>After pulling the numbers, the ideal code change is 50 lines long.<br>
+在分析了数据之后，我们发现理想的代码更改长度是 50 行。</p>
+<p>50-line code changes are reviewed and merged ~40% faster than 250-line changes.<br>
+50 行的代码更改比 250 行的更改审查和合并的速度快约 40%。</p>
+<p>They’re 15% less likely to be reverted than 250-line changes<br>
+它们被撤销的可能性比 250 行的更改低 15%</p>
+<p>and have 40% more review comments per line changed.<br>
+并且每行更改的审查评论多 40%。</p>
+<p>If your median PR is 50 lines long, you’re probably shipping 40% more total code than your teammate writing 200+ line PRs.<br>
+如果你的中位数 PR 长度是 50 行，你很可能比你写 200 行以上 PR 的队友多交付 40% 的代码总量。</p>
+<p>50 lines is a sweet spot across speed, review comments, revert rate, and total coding volume.<br>
+50 行是速度、审查评论、撤销率和总编码量的最佳点。</p>
+<p>If you’re willing to accept a range, I can recommend 25-100 lines per PR.<br>
+如果你愿意接受一个范围，我可以推荐每 PR 25-100 行。</p>
+<p>According to the data, we see that time-to-review, time-to-merge, and review comments per line all get better the smaller you make your PRs.<br>
+根据数据，我们发现，你让 PR 越小，审查时间、合并时间和每行的审查评论都会变得更好。</p>
+<p>There is a limit though: under 25 lines, and you start suffering a higher revert rate, as well as a lower total code shipped.<br>
+但有一个限制：少于 25 行，你将开始遭受更高的撤销率，以及更低的总代码交付量。</p>
+<p>Let’s talk about why and back this claim with some data.<br>
+让我们讨论为什么这一点，并用一些数据支持这一主张。</p>
+<h2 id="我们的样本集">我们的样本集</h2>
+<p>All of the data-based statements in this piece are made using private and public PRs and repos that have been synced with Graphite.<br>
+本文中所有基于数据的陈述都是使用与 Graphite 同步的私有和公共 PR（拉取请求）以及仓库得出的。</p>
+<p>To figure out the ideal PR size, I took a look at four main metrics and how they correlated with PR size:<br>
+为了找出理想的 PR 大小，我查看了四个主要指标以及它们与 PR 大小的相关性：</p>
+<ul>
+<li>Time-to-review/merge（审查/合并时间）</li>
+<li>Revert rate（撤销率）</li>
+<li>Average number of inline comments（平均内联评论数量）</li>
+<li>Total code changed over a year（一年内更改的总代码量）</li>
+</ul>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/">PR最好只让我看50行</a>
-    </h4>
+            </div>
+        </article><hr style="margin-top: 40px; margin-bottom: 40px;" />
+<div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
     
     
     
-    <time class="post-item-meta" datetime="2024-04-23T13:38:18&#43;0800">
-        23 Apr 2024
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tradeofff" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

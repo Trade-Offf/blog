@@ -6,28 +6,16 @@
     <description>Recent content in Posts on Trade-Offf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2024 20:06:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2024 13:38:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rax2Taro ｜ 从零实现一个框架编译器</title>
-      <link>http://localhost:1313/posts/%E4%BB%8E%E9%9B%B6%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E7%BC%96%E8%AF%91%E5%99%A8/</link>
-      <pubDate>Tue, 16 Apr 2024 20:06:23 +0800</pubDate>
+      <title>PR最好只让我看50行</title>
+      <link>http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/</link>
+      <pubDate>Tue, 23 Apr 2024 13:38:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/%E4%BB%8E%E9%9B%B6%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E7%BC%96%E8%AF%91%E5%99%A8/</guid>
+      <guid>http://localhost:1313/posts/pr%E6%9C%80%E5%A5%BD%E5%8F%AA%E8%AE%A9%E6%88%91%E7%9C%8B50%E8%A1%8C/</guid>
       
-      <description>Rax2Taro：点击查看 Github 地址
-一、前置背景 笔者日常使用 Rax 框架开发前端需求。但随着业务扩展，我面临一个头痛的需求：将现有的 Rax 组件适配为 Taro 组件，以实现一些特定商业场景的跨平台功能。
-这一需求可以概括为：
-新功能开发 - 在 Taro 框架中实现，确保多端兼容性。 旧功能复用 - 将现有 Rax 组件转换为 Taro，避免重写。 重写组件成本高昂，特别是对于缺乏文档和原开发者不在的旧组件。因此我需要一种自动化工具，能够轻松地一键式将 Rax 组件转化为 Taro 组件，减少工作量，加快开发进程。
-本篇博客内容，将探讨构建一个从 Rax 转换到 Taro 的编译器，从零开始实现组件级转换。
-「 恐惧通常源自未知，你恐惧的不是造轮子，你恐惧的是你从来没造过轮子 」
-作为前端同学，如果遇到这种工作可能会汗流浃背。
-但不要担心，只要我们把目标拆解到足够清晰、足够细化，一切困难都是纸老虎。
-二、编译器 编译器是个宽泛的概念，最初是指将高级语言转换为计算机能识别的汇编/机器语言的工具。
-个人理解：编译器本质是个从 A 转换的 B 的翻译工具 （如有不妥，还原评论区指正 🤝）
-但是编译器的翻译过程不是简单的翻译，通常涉及到多个步骤（词法、语法、语义分析、中间代码生成等）。详细知识点不赘述了，感兴趣的朋友请翻阅《编译原理》。
-01 | Babel：JavaScript 编译器 我们以日常开发中，接触最多的 JavaScript 编译器 Babel 为例，了解编译器工作逻辑，这里只介绍 Babel 基本流程。更多详细内容可以看以下 Github 官方文档：Babel 插件手册
-Babel 工作流程
-02 | 基本用法 这里以将 const a = 1 转换成 var a = 1 为例，看下 Babel 是如何工作的</description>
+      <description>The ideal PR is 50 lines long Most engineers intuitively know that smaller code changes are better than big ones. The logical arguments flow easy - small pull requests are easier to review, less likely to have bugs, and are faster from inception to deploy. There are a few papers around this that I love - see the references section at the end of this post for further reading.
+But how small is small?</description>
       
     </item>
     
